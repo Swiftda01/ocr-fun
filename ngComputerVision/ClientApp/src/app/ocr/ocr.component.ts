@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ComputervisionService } from '../services/computervision.service';
+import { ComputervisionService } from '../services-computervision.service';
 import { AvailableLanguage } from '../models/availablelanguage';
 import { OcrResult } from '../models/ocrresult';
 
 @Component({
-  selector: 'app-ocr',
+  selector: 'computer-vision-ocr',
   templateUrl: './ocr.component.html',
   styleUrls: ['./ocr.component.css']
 })
